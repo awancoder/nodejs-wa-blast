@@ -22,7 +22,7 @@ client.on('ready', async () => {
     const nomorTujuan = [
         "6285183274639",
 	"6285183274639"
-    ];
+    ].map((e) => e.replaceAll("+", ""));
 
     const pesan = 'Halo! Ini pesan otomatis dari Node.js 😄';
 
